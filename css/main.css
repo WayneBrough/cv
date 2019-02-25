@@ -133,6 +133,9 @@ h3 {
   h3 a {
     color: #eece1a; }
 
+.center {
+  text-align: center; }
+
 a {
   color: #fff;
   text-decoration: none; }
@@ -208,6 +211,47 @@ main {
       .boxes div:hover span {
         color: #000; }
 
+/*Cookie Consent Begin*/
+#cookieConsent {
+  background-color: rgba(20, 20, 20, 0.8);
+  min-height: 26px;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 26px;
+  padding: 8px 0 8px 30px;
+  font-family: "Trebuchet MS",Helvetica,sans-serif;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999; }
+
+#cookieConsent a {
+  color: #4B8EE7;
+  text-decoration: none; }
+
+#closeCookieConsent {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin: -15px 0 0 0;
+  font-weight: bold; }
+
+#closeCookieConsent:hover {
+  color: #FFF; }
+
+#cookieConsent a.cookieConsentOK {
+  background-color: #F1D600;
+  color: #000;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0 20px;
+  margin: 0 60px 0 10px; }
+
+#cookieConsent a.cookieConsentOK:hover {
+  background-color: #E0C91F; }
+
+/*Cookie Consent End*/
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
